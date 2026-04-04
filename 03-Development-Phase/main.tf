@@ -1,5 +1,4 @@
-provider "aws" { region = "eu-central-1" } 
-# ── S3 Bucket ───────────────────────────────────────────────────
+ # ── S3 Bucket ───────────────────────────────────────────────────
 resource "aws_s3_bucket" "website" {
   bucket = var.bucket_name
 
